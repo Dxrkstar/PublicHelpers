@@ -1,0 +1,7 @@
+{
+    "BrokerURI" : "xxx.xxx.xxx.xxx",
+    "BrokerPort" : 1883,
+    "TopicHeader" : "example/topics",
+    "Topic" : "tester",
+    "QOS" : 1
+}
