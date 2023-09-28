@@ -1,7 +1,16 @@
 {
-    "BrokerURI" : "xxx.xxx.xxx.xxx",
-    "BrokerPort" : 1883,
-    "TopicHeader" : "example/topics",
-    "Topic" : "tester",
-    "QOS" : 1
+    // MQTT Broker URI or IP address
+    "BrokerURI": "xxx.xxx.xxx.xxx",
+
+    // MQTT Broker Port (default is 1883)
+    "BrokerPort": 1883,
+
+    // Topic header for your MQTT topics
+    "TopicHeader": "example/topics",
+
+    // Specific MQTT topic you want to use
+    "Topic": "tester",
+
+    // Quality of Service (QoS) level for MQTT messages (0, 1, or 2)
+    "QOS": 1
 }
